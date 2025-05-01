@@ -7,7 +7,8 @@
 This repository holds an attempt to predict whether a website is legitimate or phishing using data from a Kaggle tabular classification challenge (https://www.kaggle.com/datasets/shashwatwork/web-page-phishing-detection-dataset/data).
 
 ## Overview
-* **Tasks / challenge:** goal of this project is to develop a model that can effectively classify websites as either legitimate or phishing based on a set of features extracted from the website. This is crucial for online safety and security, as phishing attacks are a common threat.
+
+* **Tasks / challenge:** The goal of this project is to develop a model that can effectively classify websites as either legitimate or phishing based on a set of features extracted from the website. This is crucial for online safety and security, as phishing attacks are a common threat.
 * **Approach:** The approach involves data cleaning, preprocessing, and feature engineering to prepare the dataset for model training. Several machine learning models, including Logistic Regression, Decision Tree, Random Forest, Gradient Boosting, SVM, and XGBoost, are trained and evaluated. Hyperparameter tuning is performed to optimize the performance of the best-performing models. The project aims to achieve high accuracy, precision, recall, and F1 score in phishing website detection, with a focus on the F1 score. 
 * **Summary of the performance achieved:** The XGBoost model, after hyperparameter tuning, achieved the highest F1 score of approximately 0.961, indicating a strong balance between precision and recall. This suggests the model is highly effective at identifying phishing websites while minimizing false alarms.
 
@@ -15,9 +16,9 @@ This repository holds an attempt to predict whether a website is legitimate or p
 
 
 ### Data
-* Type: Input: CSV file containing website features and a target variable indicating phishing or legitimate status.
-* Size: The original dataset had 11430 instances with 88 features.
-* Instances (Train, Test, Validation Split): The data was split into an 80% training set and a 20% testing set, with no separate validation set used in this initial exploration.
+* **Type**: Input: CSV file containing website features and a target variable indicating phishing or legitimate status.
+* **Size**: The original dataset had 11430 instances with 88 features.
+* **Instances (Train, Test, Validation Split)**: The data was split into an 80% training set and a 20% testing set, with no separate validation set used in this initial exploration.
 
 #### Preprocessing / Clean up
 * Missing values: The dataset contained no missing values.
@@ -35,8 +36,10 @@ Combined feature: 'hyperlinks_ratio'
 * Histograms and count plots were used to visualize the distribution of each feature, providing insights into the data characteristics and potential outliers. 
 * A bar chart was generated to display the top 13 most important features identified by Random Forest feature importance.
 * Bar charts were created to compare the performance of different models across key metrics.
+  
 
 ### Problem Formulation
+
 * Input: A set of features extracted from a website.
 * Output: A binary classification (0 for legitimate, 1 for phishing).
 * Models: Six different models were evaluated:
