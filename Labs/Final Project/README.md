@@ -4,12 +4,12 @@
 # Phishing Website Detection Classification Project
 
 * **One Sentence Summary:** 
-This repository holds an attempt to predict whether a website id legitimate or phishing using data from a Kaggle tabular classification challenge (https://www.kaggle.com/datasets/shashwatwork/web-page-phishing-detection-dataset/data).
+This repository holds an attempt to predict whether a website is legitimate or phishing using data from a Kaggle tabular classification challenge (https://www.kaggle.com/datasets/shashwatwork/web-page-phishing-detection-dataset/data).
 
 ## Overview
 * **Tasks / challenge** goal of this project is to develop a model that can effectively classify websites as either legitimate or phishing based on a set of features extracted from the website. This is crucial for online safety and security, as phishing attacks are a common threat.
 * **Approach**: The approach involves data cleaning, preprocessing, and feature engineering to prepare the dataset for model training. Several machine learning models, including Logistic Regression, Decision Tree, Random Forest, Gradient Boosting, SVM, and XGBoost, are trained and evaluated. Hyperparameter tuning is performed to optimize the performance of the best-performing models. The project aims to achieve high accuracy, precision, recall, and F1 score in phishing website detection, with a focus on the F1 score. 
-* **Summary of the performance achieved**: The XGBoost model, after hyperparameter tuning, achieved the highest F1 score of approximately 0.962, indicating a strong balance between precision and recall. This suggests the model is highly effective at identifying phishing websites while minimizing false alarms.
+* **Summary of the performance achieved**: The XGBoost model, after hyperparameter tuning, achieved the highest F1 score of approximately 0.961, indicating a strong balance between precision and recall. This suggests the model is highly effective at identifying phishing websites while minimizing false alarms.
 
 ## Summary of Workdone
 
@@ -26,9 +26,9 @@ This repository holds an attempt to predict whether a website id legitimate or p
 * Feature scaling: StandardScaler was applied to scale numerical features and improve model performance.
 * Feature selection: Features with low importance (below a threshold of 0.02) based on Random Forest feature importance were removed to reduce dimensionality and potentially improve model performance.
 * Feature engineering: New features were created to potentially capture more complex relationships within the data:
-Interaction feature: 'page_rank_x_web_traffic' (product of 'page_rank' and 'web_traffic')
-Polynomial feature: 'google_index_squared' (square of 'google_index')
-Combined feature: 'hyperlinks_ratio' (ratio of 'nb_hyperlinks' to 'nb_www')
+Interaction feature: 'page_rank_x_web_traffic'
+Polynomial feature: 'google_index_squared' 
+Combined feature: 'hyperlinks_ratio' 
 
 
 #### Data Visualization
@@ -50,11 +50,11 @@ XGBoost
 
 ### Training
 
-* How you trained: Models were trained using scikit-learn and XGBoost libraries within a Google Colab environment.
-* How did training take: Training times varied depending on the model complexity, with XGBoost taking the longest when doing hyperparameter tuning.
-* Training curves (loss vs epoch for test/train): Training curves were not explicitly generated in this analysis.
-* How did you decide to stop training: Models were trained until convergence using default settings or until the best hyperparameters were found using GridSearchCV.
-* Any difficulties? How did you resolve them?: No major difficulties were encountered other than long computational times.
+* Models were trained using scikit-learn and XGBoost libraries.
+* Training times varied depending on the model complexity, with XGBoost taking the longest when doing hyperparameter tuning.
+* Training curves were not explicitly generated in this analysis.
+* Models were trained until convergence using default settings or until the best hyperparameters were found using GridSearchCV.
+* No major difficulties were encountered other than long computational times.
 
 ### Performance Comparison
 * Key performance metric(s): Accuracy, Precision, Recall, F1 Score, and ROC AUC were used to evaluate model performance. The F1 score was chosen as the primary metric for model selection due to its balance between precision and recall.
@@ -121,7 +121,8 @@ XGBoost (Tuned)
 * Experiment with other machine learning algorithms, such as deep learning models, to see if they can achieve even better results.
 Evaluate the model's performance on a larger and more diverse dataset to assess its generalization capabilities.
 
-## How to reproduce resultsTo reproduce the results of this project, follow these steps:
+## How to reproduce results
+To reproduce the results of this project, follow these steps:
 * Download the dataset: Download the "Web Page Phishing Detection Dataset" from Kaggle (using the provided code).
 Open the notebook: Open the provided notebook containing the code for data preprocessing, model training, and evaluation.
 Run the code cells: Execute the code cells in the notebook sequentially to reproduce the results.
@@ -152,12 +153,12 @@ The preprocessing steps are already included in the phishingdetection.ipynb note
 
 ### Training
 * To train the models:
-  * 1. Open the phishingdetection.ipynb notebook.
-  * 2. Run all cells up to the "Iterative Modeling" section.
-  * 3. Execute the code in the "Iterative Modeling" and "Model Parameter Tuning" sections to train and evaluate different models and optimize hyperparameters.
+  1. Open the phishingdetection.ipynb notebook.
+  2. Run all cells up to the "Iterative Modeling" section.
+  3. Execute the code in the "Iterative Modeling" and "Model Parameter Tuning" sections to train and evaluate different models and optimize hyperparameters.
 
 #### Performance Evaluation
 * To evaluate model performance:
-  * 1. Ensure the models have been trained (by completing the training steps).
-  * 2. Run the code cells in the "Iterative Modeling" and "Model Parameter Tuning" sections.These sections contain code to evaluate the models using various metrics like accuracy,precision, recall, F1 score, and ROC AUC, and display the results. You'll also find code for creating confusion matrices to visualize model performance.
+  1. Ensure the models have been trained (by completing the training steps).
+  2. Run the code cells in the "Iterative Modeling" and "Model Parameter Tuning" sections.These sections contain code to evaluate the models using various metrics like accuracy,precision, recall, F1 score, and ROC AUC, and display the results. You'll also find code for creating confusion matrices to visualize model performance.
 
