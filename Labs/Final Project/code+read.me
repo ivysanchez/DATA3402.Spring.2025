@@ -128,37 +128,36 @@ Run the code cells: Execute the code cells in the notebook sequentially to repro
 Resources:
 Google Colab: Use Google Colab to run the code and leverage its computational resources.
 Kaggle: Access the dataset and potentially explore other related datasets.
-Software Setup
-Required Packages:
-This project uses the following Python packages:
-Standard Libraries:
-pandas
-numpy
-matplotlib
-seaborn
-sklearn (scikit-learn)
-IPython
-Additional Libraries:
-kagglehub (For downloading the dataset from Kaggle)
-xgboost
-Installation Instructions:
-Standard Libraries: Most of these libraries are pre-installed in Google Colab. If you are running this in a different environment, you can install them using pip:
+
+### Software Setup
+* Required Packages: This project uses the following Python packages:
+  * Standard Libraries:
+   * pandas
+   * numpy
+   * matplotlib
+   * seaborn
+   * sklearn (scikit-learn)
+* Additional Libraries:
+   * kagglehub (For downloading the dataset from Kaggle)
+   * xgboost
 
 
-Data
-The dataset used in this project, "Web Page Phishing Detection Dataset," is available on Kaggle. You can download it directly using the following code:
+### Data
+* The dataset used in this project, "Web Page Phishing Detection Dataset," is available on Kaggle. You can download it directly using the following code:
 import kagglehub
 path = kagglehub.dataset_download("shashwatwork/web-page-phishing-detection-dataset")
 print("Path to dataset files:", path)
-Preprocessing:
+* Preprocessing:
 The preprocessing steps are already included in the phishingdetection.ipynb notebook. Run the code cells related to data cleaning, feature scaling, feature selection, and feature engineering before training the models.
-Training
-To train the models:
-Open the phishingdetection.ipynb notebook.
-Run all cells up to the "Iterative Modeling" section.
-Execute the code in the "Iterative Modeling" and "Model Parameter Tuning" sections to train and evaluate different models and optimize hyperparameters.
-Performance Evaluation
-To evaluate model performance:
-Ensure the models have been trained (by completing the training steps).
-Run the code cells in the "Iterative Modeling" and "Model Parameter Tuning" sections. These sections contain code to evaluate the models using various metrics like accuracy, precision, recall, F1 score, and ROC AUC, and display the results. You'll also find code for creating confusion matrices to visualize model performance.
+
+### Training
+* To train the models:
+  * 1. Open the phishingdetection.ipynb notebook.
+  * 2. Run all cells up to the "Iterative Modeling" section.
+  * 3. Execute the code in the "Iterative Modeling" and "Model Parameter Tuning" sections to train and evaluate different models and optimize hyperparameters.
+
+#### Performance Evaluation
+* To evaluate model performance:
+  * 1. Ensure the models have been trained (by completing the training steps).
+  * 2. Run the code cells in the "Iterative Modeling" and "Model Parameter Tuning" sections.These sections contain code to evaluate the models using various metrics like accuracy,precision, recall, F1 score, and ROC AUC, and display the results. You'll also find code for creating confusion matrices to visualize model performance.
 
