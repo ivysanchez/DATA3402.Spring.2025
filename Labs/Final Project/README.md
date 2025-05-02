@@ -152,11 +152,9 @@ Kaggle: Access the dataset and potentially explore other related datasets.
 ### Data
 * The dataset used in this project, "Web Page Phishing Detection Dataset," is available on Kaggle. You can download it directly using the following code:
   
-import kagglehub
-
-path = kagglehub.dataset_download("shashwatwork/web-page-phishing-detection-dataset")
-
-print("Path to dataset files:", path)
+    import kagglehub
+    path = kagglehub.dataset_download("shashwatwork/web-page-phishing-detection-dataset")
+    print("Path to dataset files:", path)
 * Preprocessing:
 The preprocessing steps are already included in the phishingdetection.ipynb notebook. Run the code cells related to data cleaning, feature scaling, feature selection, and feature engineering before training the models.
 
