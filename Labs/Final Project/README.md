@@ -1,3 +1,4 @@
+<img width="549" alt="Screenshot 2025-05-01 at 10 47 23 PM" src="https://github.com/user-attachments/assets/8e9d5de6-356c-459c-a59a-ffd013d39cab" />
 ![](UTA-DataScience-Logo.png)
 
 
@@ -63,62 +64,9 @@ XGBoost
 ### Performance Comparison
 * Key performance metric(s): Accuracy, Precision, Recall, F1 Score, and ROC AUC were used to evaluate model performance. The F1 score was chosen as the primary metric for model selection due to its balance between precision and recall.
 Show/compare results in one table:
+<img width="549" alt="Screenshot 2025-05-01 at 10 47 23 PM" src="https://github.com/user-attachments/assets/209a0fde-d497-490d-97e2-34b6d4aa0899" />
 
-Model
-Accuracy
-Precision
-Recall
-F1 Score
-ROC AUC
 
-Logistic Regression
-0.930
-0.927
-0.932
-0.929
-0.978
-Decision Tree
-0.932
-0.932
-0.931
-0.931
-0.932
-Random Forest
-0.958
-0.962
-0.954
-0.958
-0.990
-Gradient Boosting
-0.950
-0.947
-0.952
-0.950
-0.989
-SVM
-0.941
-0.941
-0.938
-0.940
-0.983
-XGBoost
-0.959
-0.959
-0.957
-0.958
-0.991
-Random Forest (Tuned)
-0.954
-0.956
-0.950
-0.953
-0.990
-XGBoost (Tuned)
-0.961
-0.965
-0.956
-0.960
-0.991
 
 * Show one (or few) visualization(s) of results: Bar charts were generated to compare model performance across different metrics.
 
