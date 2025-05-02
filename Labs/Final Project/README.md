@@ -66,6 +66,12 @@ Show/compare results in one table:
 
 <img width="559" alt="Screenshot 2025-05-01 at 10 49 56 PM" src="https://github.com/user-attachments/assets/d7807eb8-6eb8-4295-aa89-84af7c4fc958" />
 
+| Model |  Accuracy  | Prescison | Recall | F1 Score | ROC AUC
+|:-----|:--------:|------:|
+| Logistic Regression | 0.930	| 0.927 |	0.932 |	0.929 |	0.978
+| Decision Tree  |  `code`  |   $12 |
+| Random Forest  | _italic_ |    $1 |
+
 
 
 * Show one (or few) visualization(s) of results: Bar charts were generated to compare model performance across different metrics.
