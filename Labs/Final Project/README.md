@@ -9,7 +9,7 @@ This repository holds an attempt to predict whether a website is legitimate or p
 
 * **Tasks / challenge:** The goal of this project is to develop a model that can effectively classify websites as either legitimate or phishing based on a set of features extracted from the website. This is crucial for online safety and security, as phishing attacks are a common threat.
 * **Approach:** The approach involves data cleaning, preprocessing, and feature engineering to prepare the dataset for model training. Several machine learning models, including Logistic Regression, Decision Tree, Random Forest, Gradient Boosting, SVM, and XGBoost, are trained and evaluated. Hyperparameter tuning is performed to optimize the performance of the best-performing models. The project aims to achieve high accuracy, precision, recall, and F1 score in phishing website detection, with a focus on the F1 score. 
-* **Summary of the performance achieved:** The XGBoost model, after hyperparameter tuning, achieved the highest F1 score of approximately 0.960, indicating a strong balance between precision and recall. This suggests the model is highly effective at identifying phishing websites while minimizing false alarms.
+* **Summary of the performance achieved:** The XGBoost model, after hyperparameter tuning, achieved the highest F1 score of approximately 0.960 compared to the baseline model of 0.815, indicating a strong balance between precision and recall. This suggests the model is highly effective at identifying phishing websites while minimizing false alarms.
 
 ## Summary of Work Done
 
