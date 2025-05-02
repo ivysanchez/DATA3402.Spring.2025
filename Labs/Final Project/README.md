@@ -3,7 +3,7 @@
 
 # Phishing Website Detection  Project
 
-* **One Sentence Summary:** 
+**One Sentence Summary:** 
 This repository holds an attempt to predict whether a website is legitimate or phishing using data from a Kaggle tabular classification challenge (https://www.kaggle.com/datasets/shashwatwork/web-page-phishing-detection-dataset/data).
 
 ## Overview
@@ -125,7 +125,9 @@ XGBoost (Tuned)
 * Experiment with other machine learning algorithms, such as deep learning models, to see if they can achieve even better results.
 Evaluate the model's performance on a larger and more diverse dataset to assess its generalization capabilities.
 
+
 ## How to reproduce results
+
 To reproduce the results of this project, follow these steps:
 * Download the dataset: Download the "Web Page Phishing Detection Dataset" from Kaggle (using the provided code).
 Open the notebook: Open the provided notebook containing the code for data preprocessing, model training, and evaluation.
@@ -166,3 +168,6 @@ The preprocessing steps are already included in the phishingdetection.ipynb note
   1. Ensure the models have been trained (by completing the training steps).
   2. Run the code cells in the "Iterative Modeling" and "Model Parameter Tuning" sections.These sections contain code to evaluate the models using various metrics like accuracy,precision, recall, F1 score, and ROC AUC, and display the results. You'll also find code for creating confusion matrices to visualize model performance.
 
+
+## **Citations**
+* Dataset: https://www.kaggle.com/datasets/shashwatwork/web-page-phishing-detection-dataset/data
