@@ -102,7 +102,6 @@ Kaggle: Access the dataset and potentially explore other related datasets.
    * sklearn (scikit-learn)
 * Additional Libraries:
    * kagglehub (For downloading the dataset from Kaggle)
-   * xgboost
 
 
 ### Data
