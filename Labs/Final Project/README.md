@@ -18,7 +18,7 @@ This repository holds an attempt to predict whether a website is legitimate or p
 * **Type**: Tabular CSV file
    * **Input**: CSV file containing website features
    * **Output**: Target variable indicating phishing or legitimate status.
-* **Size**: The original dataset had 11430 instances with 88 features.
+* **Size**: The original dataset had 11430 instances with 88 features, with the dataset being balanced 50/50.
 * **Instances (Train, Test, Validation Split)**: The data was split into an 80% training set and a 20% testing set, with no separate validation set used in this initial exploration.
 
 #### Preprocessing / Clean up
