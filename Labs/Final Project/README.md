@@ -41,7 +41,6 @@ Combined feature: 'hyperlinks_ratio'
 
 
 ### Problem Formulation
-
 * Input: A set of features extracted from a website.
 * Output: A binary classification (0 for legitimate, 1 for phishing).
 * Models: Six different models were evaluated:
@@ -55,8 +54,8 @@ XGBoost
 
 ### Training
 
-* Models were trained using scikit-learn and XGBoost libraries.
-* Training times varied depending on the model complexity, with XGBoost taking the longest when doing hyperparameter tuning.
+* Models were trained using Python3, scikit-learn and other libraries including pandas and numpy.
+* Training times varied depending on the model complexity, with XGBoost and Random Forest taking the longest when doing hyperparameter tuning.
 * Training curves were not explicitly generated in this analysis.
 * Models were trained until convergence using default settings or until the best hyperparameters were found using GridSearchCV.
 * No major difficulties were encountered other than long computational times.
