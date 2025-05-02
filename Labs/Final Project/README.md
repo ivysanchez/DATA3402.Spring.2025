@@ -63,54 +63,62 @@ XGBoost
 ### Performance Comparison
 * Key performance metric(s): Accuracy, Precision, Recall, F1 Score, and ROC AUC were used to evaluate model performance. The F1 score was chosen as the primary metric for model selection due to its balance between precision and recall.
 Show/compare results in one table:
+
 Model
 Accuracy
 Precision
 Recall
 F1 Score
 ROC AUC
+
 Logistic Regression
-0.922
-0.934
-0.909
-0.921
-0.977
+0.930
+0.927
+0.932
+0.929
+0.978
 Decision Tree
-0.956
-0.959
-0.952
-0.955
-0.956
+0.932
+0.932
+0.931
+0.931
+0.932
 Random Forest
-0.968
-0.974
+0.958
 0.962
-0.968
-0.994
+0.954
+0.958
+0.990
 Gradient Boosting
-0.965
-0.966
-0.964
-0.965
-0.993
+0.950
+0.947
+0.952
+0.950
+0.989
 SVM
-0.957
-0.971
-0.942
-0.956
-0.991
+0.941
+0.941
+0.938
+0.940
+0.983
 XGBoost
-0.971
-0.975
-0.967
-0.971
-0.995
+0.959
+0.959
+0.957
+0.958
+0.991
+Random Forest (Tuned)
+0.954
+0.956
+0.950
+0.953
+0.990
 XGBoost (Tuned)
-0.972
-0.976
-0.968
-0.972
-0.995
+0.961
+0.965
+0.956
+0.960
+0.991
 
 * Show one (or few) visualization(s) of results: Bar charts were generated to compare model performance across different metrics.
 
@@ -153,7 +161,9 @@ Kaggle: Access the dataset and potentially explore other related datasets.
 * The dataset used in this project, "Web Page Phishing Detection Dataset," is available on Kaggle. You can download it directly using the following code:
   
     import kagglehub
+  
     path = kagglehub.dataset_download("shashwatwork/web-page-phishing-detection-dataset")
+  
     print("Path to dataset files:", path)
 * Preprocessing:
 The preprocessing steps are already included in the phishingdetection.ipynb notebook. Run the code cells related to data cleaning, feature scaling, feature selection, and feature engineering before training the models.
@@ -171,4 +181,4 @@ The preprocessing steps are already included in the phishingdetection.ipynb note
 
 
 ## **Citations**
-* Dataset: https://www.kaggle.com/datasets/shashwatwork/web-page-phishing-detection-dataset/data
+* Tiwari, S. (2021, June 27). Web page phishing detection dataset. Kaggle. https://www.kaggle.com/datasets/shashwatwork/web-page-phishing-detection-dataset/data 
