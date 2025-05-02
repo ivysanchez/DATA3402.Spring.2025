@@ -25,7 +25,7 @@ This repository holds an attempt to predict whether a website is legitimate or p
 * Missing values: The dataset contained no missing values.
 * Categorical values: All categorical features were converted to numerical values using Label Encoding to be compatible with machine learning algorithms.
 * Feature scaling: StandardScaler was applied to scale numerical features and improve model performance.
-* Feature selection: Features with low importance (below a threshold of 0.02) based on Random Forest feature importance were removed to reduce dimensionality and potentially improve model performance.
+* Feature selection: Features with low importance (below a threshold of 0.02) based on Random Forest feature importance were removed to reduce dimensionality.
 * Feature engineering: New features were created to potentially capture more complex relationships within the data:
 Interaction feature: 'page_rank_x_web_traffic'
 Polynomial feature: 'google_index_squared' 
