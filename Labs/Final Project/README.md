@@ -129,11 +129,11 @@ Evaluate the model's performance on a larger and more diverse dataset to assess 
 ## How to reproduce results
 
 To reproduce the results of this project, follow these steps:
-* Download the dataset: Download the "Web Page Phishing Detection Dataset" from Kaggle (using the provided code).
-Open the notebook: Open the provided notebook containing the code for data preprocessing, model training, and evaluation.
-Run the code cells: Execute the code cells in the notebook sequentially to reproduce the results.
-Resources:
-Google Colab: Use Google Colab to run the code and leverage its computational resources.
+1. Download the dataset: Download the "Web Page Phishing Detection Dataset" from Kaggle (using the provided code).
+2. Open the notebook: Open the provided notebook containing the code for data preprocessing, model training, and evaluation.
+3. Run the code cells: Execute the code cells in the notebook sequentially to reproduce the results.
+**Resources:**
+Google Colab: Use Google Colab or Jupyter Notebook to run the code and leverage its computational resources.
 Kaggle: Access the dataset and potentially explore other related datasets.
 
 ### Software Setup
@@ -151,8 +151,11 @@ Kaggle: Access the dataset and potentially explore other related datasets.
 
 ### Data
 * The dataset used in this project, "Web Page Phishing Detection Dataset," is available on Kaggle. You can download it directly using the following code:
+  
 import kagglehub
+
 path = kagglehub.dataset_download("shashwatwork/web-page-phishing-detection-dataset")
+
 print("Path to dataset files:", path)
 * Preprocessing:
 The preprocessing steps are already included in the phishingdetection.ipynb notebook. Run the code cells related to data cleaning, feature scaling, feature selection, and feature engineering before training the models.
