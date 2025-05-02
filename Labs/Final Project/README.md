@@ -64,13 +64,7 @@ XGBoost
 * Key performance metric(s): Accuracy, Precision, Recall, F1 Score, and ROC AUC were used to evaluate model performance. The F1 score was chosen as the primary metric for model selection due to its balance between precision and recall.
 Show/compare results in one table:
 
-<img width="559" alt="Screenshot 2025-05-01 at 10 49 56 PM" src="https://github.com/user-attachments/assets/d7807eb8-6eb8-4295-aa89-84af7c4fc958" />
-
-| Model |  Accuracy  | Prescison | Recall | F1 Score | ROC AUC
-|:-----|:--------:|------:|
-| Logistic Regression | 0.930	| 0.927 |	0.932 |	0.929 |	0.978
-| Decision Tree  |  `code`  |   $12 |
-| Random Forest  | _italic_ |    $1 |
+<img width="549" alt="Screenshot 2025-05-01 at 10 47 23 PM" src="https://github.com/user-attachments/assets/9a339754-dc7f-4033-afa6-d4e16c1106c6" />
 
 
 
