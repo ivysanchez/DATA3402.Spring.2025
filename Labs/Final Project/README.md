@@ -1,4 +1,3 @@
-<img width="549" alt="Screenshot 2025-05-01 at 10 47 23 PM" src="https://github.com/user-attachments/assets/8e9d5de6-356c-459c-a59a-ffd013d39cab" />
 ![](UTA-DataScience-Logo.png)
 
 
