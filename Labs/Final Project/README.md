@@ -34,10 +34,11 @@ Combined feature: 'hyperlinks_ratio'
 
 #### Data Visualization
 * Histograms and count plots were used to visualize the distribution of each feature, providing insights into the data characteristics and potential outliers. 
-* A bar chart was generated to display the top 13 most important features identified by Random Forest feature importance.
+* A bar chart was generated to display the top 13 most important features identified by Random Forest featu![Unknown-3](https://github.com/user-attachments/assets/a86882ce-9e2a-4d79-a805-1d6926f4f2f3)
+re importance.
 * Bar charts were created to compare the performance of different models across key metrics.
-  
-
+Example of bar chart for F1 score:
+![Unknown-17](https://github.com/user-attachments/assets/a92e7482-d181-4302-b978-eb9efe56e5a3)
 
 ### Problem Formulation
 * Input: A set of features extracted from a website.
