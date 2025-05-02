@@ -3,7 +3,6 @@
 
 # Phishing Website Detection  Project
 
-**One Sentence Summary:** 
 This repository holds an attempt to predict whether a website is legitimate or phishing using data from a Kaggle tabular classification challenge (https://www.kaggle.com/datasets/shashwatwork/web-page-phishing-detection-dataset/data).
 
 ## Overview
